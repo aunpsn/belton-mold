@@ -1,5 +1,5 @@
 import { Link, Outlet, useRouterState } from "@tanstack/react-router";
-import logoAsset from "@/assets/belton-logo.png.asset.json";
+import logoUrl from "@/assets/belton-logo.png";
 import { cn } from "@/lib/utils";
 
 const NAV = [
@@ -16,7 +16,7 @@ export function AppLayout({ children }: { children?: React.ReactNode }) {
       <header className="border-b bg-card sticky top-0 z-30 shadow-sm">
         <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center gap-6 flex-wrap">
           <Link to="/" className="flex items-center gap-3 shrink-0">
-            <img src={logoAsset.url} alt="Belton Technology" className="h-10 w-auto" />
+            <img src={logoUrl} alt="Belton Technology" className="h-10 w-auto" />
             <div className="hidden md:block leading-tight">
               <div className="text-xs text-muted-foreground">Molding Parameter Record</div>
               <div className="text-sm font-semibold">ใบบันทึกพารามิเตอร์การฉีด</div>
