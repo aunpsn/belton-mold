@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useMemo, useState } from "react";
-import { AppLayout } from "@/components/AppLayout";
-import { supabase } from "@/integrations/supabase/client";
+import { AppLayout } from "@/components/ui/AppLayout";
+import { supabase } from "@/intregetion_Supabase/client";
 import { PARAMETERS } from "@/lib/molding";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

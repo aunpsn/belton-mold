@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useMemo, useState } from "react";
-import { AppLayout } from "@/components/AppLayout";
-import { supabase } from "@/integrations/supabase/client";
+import { AppLayout } from "@/components/ui/AppLayout";
+import { supabase } from "@/intregetion_Supabase/client";
 import { PARAMETERS, SHIFTS } from "@/lib/molding";
 import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
